@@ -26,6 +26,7 @@
           langchain-core
           langchain-ollama
           openai
+          tkinter
         ];
       in {
         devShells.default = pkgs.mkShell {
